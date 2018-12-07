@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>GitHubLogin</title>
+    <style>
+        label {
+            display:block;
+            font-size: 10pt;
+            padding: 4pt;
+            font-family: Arial, Helvetica, sans-serif
+        }
+        input {
+            padding: 10pt;
+            font-size: 12pt;
+            border-radius: 5%;
+            border-color: rgba(136, 136, 136, 0.26);
+
+
+        }
+        p {
+            font-size: 8pt;
+            max-width: 230px;
+            font-family: Arial, Helvetica, sans-serif;
+            
+        }
+        button {
+            background-color: rgb(32, 136, 32);
+            color: white;
+            font-size: 12pt;
+            padding: 12pt 34pt;
+            text-align: center;
+            border: none
+        }
+        a {
+            text-decoration: none
+        }
+      
+            
+        
+        
+
+        
+    </style>
+</head>
+<body>
+   <form>
+    <label for="name">Username</label>
+    <input type="name" placeholder="Pick a username" id="name"/>
+
+    
+    <label for="email">E-Mail</label>
+    <input type="email" placeholder="you@example.com" id="email"/>
+
+    <label for="password">Password</label>
+    <input type="password" placeholder="Create a password" id="password" minlength="8" required/>
+
+    <p>
+        Make sure it's more than 15 characters, or at least 8 characters,
+         including a number, and a lowercase letter.
+    </p>
+
+    <button type="button">Sign up for GitHub</button>
+    <p>
+    By clicking "Sign up for GitHub", you agree to our
+    <a href="https://help.github.com/articles/github-terms-of-service/">terms of service</a> 
+    and <a href="https://help.github.com/articles/github-privacy-statement/">privacy statement</a>. 
+    We'll occsaionally send you account related emails.
+    </p>
+
+
+
+   </form>
+</body>
+</html>                                    
